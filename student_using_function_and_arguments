@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+struct student{
+    float marks;
+    char name[10];
+    int rollno;
+};
+student get_detail(student s1){
+    cin>>s1.marks;
+}
+void  display(student s1){
+    cout<<s1.marks;
+}
+int main()
+{
+    student s1;
+    cout<<"Enter the name";
+    cin>>s1.name;
+    cout<<"Enter marks";
+    get_detail(s1);
+    display(s1);
+    return 0;
+}
