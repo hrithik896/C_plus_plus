@@ -1,2 +1,2 @@
 # C_plus_plus
-This repo contains all the program done at class and lab.
+This repo contains all the programs of  done at class and lab of MIET JAMMU.
